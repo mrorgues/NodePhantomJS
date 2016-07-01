@@ -1,6 +1,10 @@
-# Selenium Grid Node - PhantomJS (Custom Edition)
+# Selenium Grid Node - PhantomJS
 
-Selenium Node configured to run PhantomJS (Custom Edition)
+Selenium Node configured to run PhantomJS
+
+## PhantomJS
+Unfortunately, a [bug](https://github.com/detro/ghostdriver/issues/394) in PhantomJS prevents us from using the official version.
+Hene, the project is base on: https://github.com/mrorgues/phantomjs_custom_edition
 
 ## Dockerfile
 
