@@ -6,10 +6,6 @@ Selenium Node configured to run PhantomJS (Custom Edition)
 
 [`selenium/node-phantomjs` Dockerfile](https://github.com/mrorgues/phantomjs_custom_edition/tree/master/NodePhantomJS/Dockerfile)
 
-docker build -t phantomjs/custom_edition:version .
-
-docker run -d --name selenium-node-phantomjs --link selenium-hub:hub phantomjs/custom_edition:version
-
 ## How to use this image
 
 Build an image from a Dockerfile
