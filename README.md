@@ -3,6 +3,7 @@
 Selenium Node configured to run PhantomJS
 
 ## PhantomJS
+
 Unfortunately, a [bug](https://github.com/detro/ghostdriver/issues/394) in PhantomJS prevents us from using the official version.
 Hence, the project is base on: https://github.com/mrorgues/PhantomJSCustomEdition
 
