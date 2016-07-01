@@ -30,7 +30,7 @@ ENV PHANTOMJS_VERSION 2.1.1
 RUN  \
   apt-get update -qqy && \
   apt-get install bzip2 libfreetype6 libfontconfig1 net-tools -qqy && \
-  wget -q https://raw.githubusercontent.com/mrorgues/phantomjs_custom_edition/builds/phantomjs-$PHANTOMJS_VERSION-linux-x86_64-workaround_issue_394.tar.bz2 && \
+  wget -q https://raw.githubusercontent.com/mrorgues/PhantomJSCustomEdition/builds/phantomjs-$PHANTOMJS_VERSION-linux-x86_64-workaround_issue_394.tar.bz2 && \
   tar -xvjf phantomjs-$PHANTOMJS_VERSION-linux-x86_64-workaround_issue_394.tar.bz2 && rm phantomjs-$PHANTOMJS_VERSION-linux-x86_64-workaround_issue_394.tar.bz2 && \
   mv /phantomjs-$PHANTOMJS_VERSION-linux-x86_64-workaround_issue_394 /usr/local/phantomjs-$PHANTOMJS_VERSION-linux-x86_64-workaround_issue_394 && \
   ln -s /usr/local/phantomjs-$PHANTOMJS_VERSION-linux-x86_64-workaround_issue_394/bin/phantomjs /usr/local/bin/phantomjs && \
